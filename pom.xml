@@ -24,6 +24,13 @@
         </dependency>
     </dependencies>
 
+    <distributionManagement>
+        <repository>
+            <id>local-repo</id>
+            <url>file://${project.basedir}/local-maven-repo</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
 
